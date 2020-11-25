@@ -12,7 +12,10 @@ public class PlayerMovement : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
 
+    public Camera cam;
+
     Vector2 movement;
+    Vector2 mousePos;
 
     // Update is called once per frame
     void Update()
@@ -20,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
         // Input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
 
     void FixedUpdate()
@@ -27,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
         // Movement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         animator.SetFloat("Speed", Mathf.Abs(movement.x) + Mathf.Abs(movement.y));
+
+        Vector2 lookDir = mousePos - rb.position;
 
         if (movement.x < 0)
         {
