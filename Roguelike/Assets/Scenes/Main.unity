@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 195581331}
   - component: {fileID: 195581330}
   - component: {fileID: 195581329}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Goblin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -499,7 +499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 326261625}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -889,7 +889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 856936780}
   - component: {fileID: 856936781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3585,7 +3585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1138891632}
   - component: {fileID: 1138891631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3783,7 +3783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1443740282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Firing_Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3798,7 +3798,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443740281}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.81, y: -0.55, z: 0}
+  m_LocalPosition: {x: 0.04, y: -0.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1930492179}
@@ -5060,12 +5060,12 @@ GameObject:
   - component: {fileID: 1930492181}
   - component: {fileID: 1930492180}
   - component: {fileID: 1930492184}
-  - component: {fileID: 1930492183}
   - component: {fileID: 1930492182}
   - component: {fileID: 1930492185}
-  m_Layer: 0
+  - component: {fileID: 1930492183}
+  m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5187,7 +5187,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04178214, y: -0.18105519}
+  m_Offset: {x: 0.04277301, y: -0.17584443}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5198,7 +5198,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7493081, y: 1.1378896}
+  m_Size: {x: 0.7053418, y: 1.1483111}
   m_EdgeRadius: 0
 --- !u!50 &1930492184
 Rigidbody2D:

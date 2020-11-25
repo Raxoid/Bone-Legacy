@@ -15,11 +15,11 @@ C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-60874
+63802
 Successfully changed project path to: C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.93 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0b1 (4ae7c5e87f33)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/Resources/UnitySubsystems
@@ -36,30 +36,30 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001404 seconds.
+Registered in 0.001339 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.99 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  0.867 seconds
 Registering precompiled user dll's ...
-Registered in 0.090945 seconds.
+Registered in 0.087931 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Martin\Desktop\Personal Projects\Roguelike-2D\Roguelike\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
+- Completed reload, in  0.794 seconds
 Platform modules already initialized, skipping
