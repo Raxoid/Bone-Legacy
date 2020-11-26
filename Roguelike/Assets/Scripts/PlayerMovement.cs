@@ -29,12 +29,19 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Movement
+        Move();
+        Flip();
+        animator.SetFloat("Speed", Mathf.Abs(movement.x) + Mathf.Abs(movement.y));     
+    }
+    
+    void Move()
+    {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        animator.SetFloat("Speed", Mathf.Abs(movement.x) + Mathf.Abs(movement.y));
-
         Vector2 lookDir = mousePos - rb.position;
+    }
 
+    void Flip()
+    {
         if (movement.x < 0)
         {
             spriteRenderer.flipX = true;

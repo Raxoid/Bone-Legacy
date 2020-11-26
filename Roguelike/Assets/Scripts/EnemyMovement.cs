@@ -27,7 +27,13 @@ public class EnemyMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        Move();
+        Flip();
+        animator.SetFloat("Distance", 1);
+    }
 
+    void Move()
+    {
         Vector3 direction = Player.position - this.transform.position;
 
         direction.Normalize();
@@ -35,8 +41,10 @@ public class EnemyMovement : MonoBehaviour
         PlayerDirection = direction;
 
         rb.MovePosition((Vector2)this.transform.position + (PlayerDirection * moveSpeed * Time.deltaTime));
-        animator.SetFloat("Distance", 1);
+    }
 
+    void Flip()
+    {
         if (Player.position.x > this.transform.position.x)
         {
             spriteRenderer.flipX = true;
@@ -44,6 +52,6 @@ public class EnemyMovement : MonoBehaviour
         else if (Player.position.x < this.transform.position.x)
         {
             spriteRenderer.flipX = false;
-        }       
+        }
     }
 }

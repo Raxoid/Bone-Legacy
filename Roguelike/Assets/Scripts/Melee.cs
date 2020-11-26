@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Melee : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform firePoint;
+
+    public float meleeRadius;
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void Attack()
+    {
+
     }
 }

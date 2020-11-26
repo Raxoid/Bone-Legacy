@@ -25,15 +25,13 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector2 lookDir = mousePos - new Vector2(firePoint.position.x, firePoint.position.y);
 
         GameObject bullet = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
- 
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
         rb.AddForce(lookDir * projectileForce, ForceMode2D.Impulse);
     }
