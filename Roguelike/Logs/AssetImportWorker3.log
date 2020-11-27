@@ -15,11 +15,11 @@ C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53083
+54798
 Successfully changed project path to: C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 63.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0b1 (4ae7c5e87f33)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/Resources/UnitySubsystems
@@ -36,30 +36,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001529 seconds.
+Registered in 0.001558 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 54.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
+- Completed reload, in  1.056 seconds
 Registering precompiled user dll's ...
-Registered in 0.098767 seconds.
+Registered in 0.099138 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Martin\Desktop\Personal Projects\Roguelike-2D\Roguelike\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.91 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 58.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
+- Completed reload, in  0.872 seconds
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.7 MB.
+System memory in use after: 123.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3177.
+Total: 2.405200 ms (FindLiveObjects: 0.580700 ms CreateObjectMapping: 0.078400 ms MarkObjects: 1.630000 ms  DeleteObjects: 0.115300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Player/Idle_withSword/Player_Idle_1.png
+  artifactKey: Guid(5a360ce8df024214cbbb24190566131b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Idle_withSword/Player_Idle_1.png using Guid(5a360ce8df024214cbbb24190566131b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17820bb8e79758d9d215b881538217ba') in 0.139667 seconds
+  Import took 0.147340 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=258 error=The wait operation timed out.
