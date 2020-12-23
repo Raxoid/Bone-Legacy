@@ -15,11 +15,11 @@ C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54798
+60239
 Successfully changed project path to: C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 C:/Users/Martin/Desktop/Personal Projects/Roguelike-2D/Roguelike
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 57.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0b1 (4ae7c5e87f33)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/Resources/UnitySubsystems
@@ -36,371 +36,99 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001332 seconds.
+Registered in 0.001320 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 52.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
+- Completed reload, in  0.863 seconds
 Registering precompiled user dll's ...
-Registered in 0.114688 seconds.
+Registered in 0.095834 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Martin\Desktop\Personal Projects\Roguelike-2D\Roguelike\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 54.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.837 seconds
+- Completed reload, in  0.798 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2738 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 123.7 MB.
 System memory in use after: 123.7 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3177.
-Total: 2.981500 ms (FindLiveObjects: 0.608000 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.156700 ms  DeleteObjects: 0.137000 ms)
+Total: 2.602400 ms (FindLiveObjects: 0.702500 ms CreateObjectMapping: 0.141700 ms MarkObjects: 1.641900 ms  DeleteObjects: 0.115300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Warrior/Individual Sprite/UptoFall/Warrior_UptoFall_1.png
-  artifactKey: Guid(8341831f34513824d9d959921a6788d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/UptoFall/Warrior_UptoFall_1.png using Guid(8341831f34513824d9d959921a6788d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e489358b22b2223e9ecf1993aa9784b2') in 0.115243 seconds
-  Import took 0.121640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Hurt-Effect/Warrior_hurt_3.png
-  artifactKey: Guid(696fa4e1dc126c548b8391c5711ac13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Hurt-Effect/Warrior_hurt_3.png using Guid(696fa4e1dc126c548b8391c5711ac13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5b112b225b8bdec3fd7cc35447d555') in 0.009477 seconds
-  Import took 0.015999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_big_hammer.png
-  artifactKey: Guid(373b409c0617edb4a855bcd59ffdf987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_big_hammer.png using Guid(373b409c0617edb4a855bcd59ffdf987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abb761dee9163132f597175cca358bf') in 0.011170 seconds
-  Import took 0.017964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_6.png
-  artifactKey: Guid(76686e84ec9366d4c84af337685ffe42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_6.png using Guid(76686e84ec9366d4c84af337685ffe42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b1a797c2edc0d3df4e0ee7aa73318f') in 0.011823 seconds
-  Import took 0.017439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_3.png
-  artifactKey: Guid(267075d9b3bb7d44abf0387f38719e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_3.png using Guid(267075d9b3bb7d44abf0387f38719e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34681a26fc6a2880831a3c0c64e2694f') in 0.010360 seconds
-  Import took 0.015843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Hurt-Effect/Warrior_hurt_2.png
-  artifactKey: Guid(42fac42fc56c6d34cadc1d11080dcc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Hurt-Effect/Warrior_hurt_2.png using Guid(42fac42fc56c6d34cadc1d11080dcc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758aec93505a24b328bcfb86c3751f3d') in 0.019334 seconds
-  Import took 0.025672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Hurt-Effect/Warrior_hurt_1.png
-  artifactKey: Guid(09b2dfe81e3393446b813ed2fc25ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Hurt-Effect/Warrior_hurt_1.png using Guid(09b2dfe81e3393446b813ed2fc25ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f1f678a54060e217bc7f98ae1ab725') in 0.014277 seconds
-  Import took 0.020116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_cleaver.png
-  artifactKey: Guid(9a74905c6e7525246bac6176d8d06288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_cleaver.png using Guid(9a74905c6e7525246bac6176d8d06288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08af41620136a69a2e15744be1384271') in 0.013135 seconds
-  Import took 0.019690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_6.png
-  artifactKey: Guid(5003666f66cb6f1498556cd8c6916fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_6.png using Guid(5003666f66cb6f1498556cd8c6916fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900419e364aa72ee3fb066f893ecea76') in 0.009669 seconds
-  Import took 0.015410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_1.png
-  artifactKey: Guid(bb20fdf08749c6f4ea568cad3de369bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_1.png using Guid(bb20fdf08749c6f4ea568cad3de369bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1f8dad0df08b0bb70af92d37e3dcda') in 0.009333 seconds
-  Import took 0.015491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_2.png
-  artifactKey: Guid(c2ee95e39bf31244ebcd006d371baaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_2.png using Guid(c2ee95e39bf31244ebcd006d371baaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda3376e1a15f602bfb70166fdb1757f') in 0.013314 seconds
-  Import took 0.018891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_4.png
-  artifactKey: Guid(83afaaaa139d79848abd83b01ab2ea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_4.png using Guid(83afaaaa139d79848abd83b01ab2ea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42db1fe8dd108a10f1ed4ec3840acb3') in 0.021074 seconds
-  Import took 0.026661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png
-  artifactKey: Guid(48feb716b8a1c51459209aa371e4ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png using Guid(48feb716b8a1c51459209aa371e4ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48942eb77ce2b4a9b0d6438c87db6fe4') in 0.010013 seconds
-  Import took 0.015236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png
-  artifactKey: Guid(0153174b95839274386f64d08fa68d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png using Guid(0153174b95839274386f64d08fa68d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1f69b97450a476f0ec60e51647616f') in 0.011858 seconds
-  Import took 0.017756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_3.png
-  artifactKey: Guid(a3780ed2e8a9b6f4690b68cc231547d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_3.png using Guid(a3780ed2e8a9b6f4690b68cc231547d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f743393bdcecd26aa1f50b9590e0ca45') in 0.015341 seconds
-  Import took 0.020998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_axe.png
-  artifactKey: Guid(405cffebde3880f4a932d72c0076aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_axe.png using Guid(405cffebde3880f4a932d72c0076aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f31af1cd0bb8ef646e092a7e4a1786') in 0.010701 seconds
-  Import took 0.016029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/HurtnoEffect/Warrior_hurt_4.png
-  artifactKey: Guid(3f0f510cd43eac2478f6cf66442583aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/HurtnoEffect/Warrior_hurt_4.png using Guid(3f0f510cd43eac2478f6cf66442583aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6628a9df2981573f5cd6550f3c7a9c97') in 0.008805 seconds
-  Import took 0.014783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/HurtnoEffect/Warrior_hurt_2.png
-  artifactKey: Guid(0b97dac59d84b41408c544e4ea38db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/HurtnoEffect/Warrior_hurt_2.png using Guid(0b97dac59d84b41408c544e4ea38db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1708d2a08dd20fbb64d12af73f8f2a') in 0.009346 seconds
-  Import took 0.015447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/HurtnoEffect/Warrior_hurt_3.png
-  artifactKey: Guid(432c528190e1beb488d2033b609dffc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/HurtnoEffect/Warrior_hurt_3.png using Guid(432c528190e1beb488d2033b609dffc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef800e4a385c4bff4f4abd163f1e093') in 0.008686 seconds
-  Import took 0.015070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_5.png
-  artifactKey: Guid(fa0d26b563873824283dcbac239ff93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_5.png using Guid(fa0d26b563873824283dcbac239ff93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41803384af5e28b2941a756fb8b98610') in 0.008725 seconds
-  Import took 0.014807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_7.png
-  artifactKey: Guid(acec6954755918d499ff03d45b0dcc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_7.png using Guid(acec6954755918d499ff03d45b0dcc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7468ee9828140aa4cb41f09a6bfca855') in 0.010287 seconds
-  Import took 0.016382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/WallSlide/Warrior_WallSlide_1.png
-  artifactKey: Guid(3381a4d75f828744887c6ad7b6c0b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/WallSlide/Warrior_WallSlide_1.png using Guid(3381a4d75f828744887c6ad7b6c0b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf352ff021307e3fc93982c1b12b71cf') in 0.010007 seconds
-  Import took 0.016910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/WallSlide_NoDust/Warrior_WallSlide_1.png
-  artifactKey: Guid(9071d0b8200d23148a8fffff596c8f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/WallSlide_NoDust/Warrior_WallSlide_1.png using Guid(9071d0b8200d23148a8fffff596c8f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a5afbd449cf0628a38492ec3ecd146') in 0.009467 seconds
-  Import took 0.016480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Fall/Warrior_Fall_3.png
-  artifactKey: Guid(0be92a9b8b2d89748b63260d54684ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Fall/Warrior_Fall_3.png using Guid(0be92a9b8b2d89748b63260d54684ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fc1fb1708d9e9299b785591e8b332e') in 0.008339 seconds
-  Import took 0.014047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_8.png
-  artifactKey: Guid(eafe36d52c56f5e488d4cf582419f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_8.png using Guid(eafe36d52c56f5e488d4cf582419f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b7ec0c52924abea59deab8d1df86f0') in 0.009172 seconds
-  Import took 0.015037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/HurtnoEffect/Warrior_hurt_1.png
-  artifactKey: Guid(03d4e8ae656371a4dae7de85edeab608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/HurtnoEffect/Warrior_hurt_1.png using Guid(03d4e8ae656371a4dae7de85edeab608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba6840a0c99cef2d45d233d5fae2093') in 0.008948 seconds
-  Import took 0.014664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/UptoFall/Warrior_UptoFall_2.png
-  artifactKey: Guid(2fa7362eaa5c99c49a9319cb9ccee860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/UptoFall/Warrior_UptoFall_2.png using Guid(2fa7362eaa5c99c49a9319cb9ccee860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbef312ab0eda818ef8338fd34c7604b') in 0.009056 seconds
-  Import took 0.015264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_2.png
-  artifactKey: Guid(c0caee5fcbb3a604ab570e541d211b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_2.png using Guid(c0caee5fcbb3a604ab570e541d211b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28835c192ced63b76375e9a7958ab6d0') in 0.009777 seconds
-  Import took 0.014614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_5.png
-  artifactKey: Guid(41cf92b4500dabb42b99e59f56573037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Run/Warrior_Run_5.png using Guid(41cf92b4500dabb42b99e59f56573037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5917ed9fb514796e695be6216d7623d4') in 0.009543 seconds
-  Import took 0.014480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png
-  artifactKey: Guid(90e734eabc1aedc478ac065d1d153e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png using Guid(90e734eabc1aedc478ac065d1d153e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273b2dd08426400bff6494302925bd7b') in 0.009499 seconds
-  Import took 0.014765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Sprites/Warrior/SpriteSheet/Warrior_SheetnoEffect.png
-  artifactKey: Guid(2545f1242240d204ab15e5dbcf887fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/SpriteSheet/Warrior_SheetnoEffect.png using Guid(2545f1242240d204ab15e5dbcf887fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8bd5da6028da4d8795fa29fb98e580') in 0.015940 seconds
-  Import took 0.021910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Sprites/Warrior/SpriteSheet/Warrior_Sheet-Effect.png
-  artifactKey: Guid(a99eb2dbd36e2bb4e88f1d51e83ef3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/SpriteSheet/Warrior_Sheet-Effect.png using Guid(a99eb2dbd36e2bb4e88f1d51e83ef3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b944364e00c4a228096b9c7a93278c14') in 0.012668 seconds
-  Import took 0.017817 seconds .
+  path: Assets/Sprites/2D Pixel Dungeon Asset Pack/Dungeon_Character_at.png
+  artifactKey: Guid(1ce29f9970f17c14695e75b11ef4486e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D Pixel Dungeon Asset Pack/Dungeon_Character_at.png using Guid(1ce29f9970f17c14695e75b11ef4486e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0953993e81084d895a71b26e0550a95e') in 0.114315 seconds
+  Import took 0.120279 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000291 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/WallSlide_NoDust/Warrior_WallSlide_2.png
-  artifactKey: Guid(8ab370eab1b7c844fbd6ad6d1b87b87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/WallSlide_NoDust/Warrior_WallSlide_2.png using Guid(8ab370eab1b7c844fbd6ad6d1b87b87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86838189448734a614e5156dce5b930a') in 0.009261 seconds
-  Import took 0.014556 seconds .
+  path: Assets/Sprites/2D Pixel Dungeon Asset Pack/items and trap_animation
+  artifactKey: Guid(c170abf4e6a94444e8becf1ccf3ed090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D Pixel Dungeon Asset Pack/items and trap_animation using Guid(c170abf4e6a94444e8becf1ccf3ed090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecdedfe7f5677683c3f022416772f0a') in 0.002961 seconds
+  Import took 0.007906 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/WallSlide/Warrior_WallSlide_2.png
-  artifactKey: Guid(6cf7ae716ab937641a02602f5c675cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/WallSlide/Warrior_WallSlide_2.png using Guid(6cf7ae716ab937641a02602f5c675cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0eb10cd03ce651fd102861ca7479f0') in 0.010142 seconds
-  Import took 0.015250 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png
+  artifactKey: Guid(e524bb3d2073a1f4e916e973b8866166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png using Guid(e524bb3d2073a1f4e916e973b8866166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efa91c327bb69dd16cc6f62af011eba') in 0.019653 seconds
+  Import took 0.025362 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_baton_with_spikes.png
-  artifactKey: Guid(4dd3652a4b7e87a4d88eeed1881e8bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_baton_with_spikes.png using Guid(4dd3652a4b7e87a4d88eeed1881e8bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ddf504791d49ca8c41e62158c64216') in 0.011195 seconds
-  Import took 0.016761 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/2D Pixel Dungeon Asset Pack/interface
+  artifactKey: Guid(db5ad94edeacce84b93b4eaffeb857f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D Pixel Dungeon Asset Pack/interface using Guid(db5ad94edeacce84b93b4eaffeb857f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecb17df02d1e2f3870b9cdd7de7030c') in 0.002862 seconds
+  Import took 0.008185 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_anime_sword.png
-  artifactKey: Guid(d3a906e8a614181419f572e025666a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/0x72_DungeonTilesetII_v1.3.1/frames/weapon_anime_sword.png using Guid(d3a906e8a614181419f572e025666a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b76aa7bc830cfd2bac8a2fc4e8883d') in 0.011411 seconds
-  Import took 0.017446 seconds .
+  Time since last request: 0.000345 seconds.
+  path: Assets/Sprites/2D Pixel Dungeon Asset Pack/Dungeon_gif.gif
+  artifactKey: Guid(3e39d662de289a44a990dca8f708e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D Pixel Dungeon Asset Pack/Dungeon_gif.gif using Guid(3e39d662de289a44a990dca8f708e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861e922a5c5e68ea48bdef362dcb954a') in 0.016168 seconds
+  Import took 0.021703 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/WallSlide/Warrior_WallSlide_3.png
-  artifactKey: Guid(969e6cb5bcd2ee94a91b0817bd2c10ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/WallSlide/Warrior_WallSlide_3.png using Guid(969e6cb5bcd2ee94a91b0817bd2c10ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8c958e546a3d87faf01e9c5b617d39') in 0.010527 seconds
-  Import took 0.015960 seconds .
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/2D Pixel Dungeon Asset Pack/Character_animation
+  artifactKey: Guid(cb5b4a892c5841844bde091a57d323b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D Pixel Dungeon Asset Pack/Character_animation using Guid(cb5b4a892c5841844bde091a57d323b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcca6007ae9ee07f8890bff78f20029') in 0.002785 seconds
+  Import took 0.008039 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/Hurt-Effect/Warrior_hurt_4.png
-  artifactKey: Guid(b3f10c22d76fe21459d91fff9f614ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/Hurt-Effect/Warrior_hurt_4.png using Guid(b3f10c22d76fe21459d91fff9f614ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babc0b001723163a8e81784a6c037776') in 0.010152 seconds
-  Import took 0.015888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_4.png
-  artifactKey: Guid(c8b6aec5882484346aac86940ba68b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_4.png using Guid(c8b6aec5882484346aac86940ba68b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f995d0f0a27896beaee49df68fcfef') in 0.011397 seconds
-  Import took 0.017754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_1.png
-  artifactKey: Guid(d5cbcc5d9321a454aaa87f6a55a0ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/idle/Warrior_Idle_1.png using Guid(d5cbcc5d9321a454aaa87f6a55a0ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b298be0151128125f9180cbafb96f8ed') in 0.009679 seconds
-  Import took 0.016908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Sprites/Warrior/Individual Sprite/WallSlide_NoDust/Warrior_WallSlide_3.png
-  artifactKey: Guid(07b725a82b4ed564397ae02f6fb3b4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Warrior/Individual Sprite/WallSlide_NoDust/Warrior_WallSlide_3.png using Guid(07b725a82b4ed564397ae02f6fb3b4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ddb497c904587746313d69995ccfad') in 0.016303 seconds
-  Import took 0.025256 seconds .
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sprites/2D Pixel Dungeon Asset Pack/character and tileset
+  artifactKey: Guid(81fa6d1ea3f443a4bbdb18aaec0f8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D Pixel Dungeon Asset Pack/character and tileset using Guid(81fa6d1ea3f443a4bbdb18aaec0f8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0bd0280200e8ffb44dd6f9e64814fd') in 0.003146 seconds
+  Import took 0.008316 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=258 error=The wait operation timed out.
