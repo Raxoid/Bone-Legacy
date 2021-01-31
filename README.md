@@ -1,2 +1,2 @@
-# Roguelike-2D
+# Bone-Legacy
 2D unity roguelike game
