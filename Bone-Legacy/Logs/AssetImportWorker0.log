@@ -1,0 +1,211 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '2020.2.0b1 (4ae7c5e87f33) revision 4908997'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.0b1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Martin/Desktop/Personal Projects/Bone-Legacy/Bone-Legacy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60295
+Successfully changed project path to: C:/Users/Martin/Desktop/Personal Projects/Bone-Legacy/Bone-Legacy
+C:/Users/Martin/Desktop/Personal Projects/Bone-Legacy/Bone-Legacy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0b1 (4ae7c5e87f33)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Martin/Desktop/Personal Projects/Bone-Legacy/Bone-Legacy/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001543 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Registering precompiled user dll's ...
+Registered in 0.076379 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Martin\Desktop\Personal Projects\Bone-Legacy\Bone-Legacy\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1782 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 2.361700 ms (FindLiveObjects: 0.485900 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.707300 ms  DeleteObjects: 0.116200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/bone-legacy-assets/spawner
+  artifactKey: Guid(54965d3175d6f7c4aad1ce3417f52732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner using Guid(54965d3175d6f7c4aad1ce3417f52732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab95a964e37d365ca58b2cc51d3eece') in 0.004600 seconds
+  Import took 0.007965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.244705 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/BloodTower.png
+  artifactKey: Guid(a8b9509b89c7fde48b64cd73d8f0f39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/BloodTower.png using Guid(a8b9509b89c7fde48b64cd73d8f0f39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903a422eb8139be62e1f614a3dc07c41') in 0.078565 seconds
+  Import took 0.082711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile001.png
+  artifactKey: Guid(33ee12025d8ee9541bd04c57f79d425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile001.png using Guid(33ee12025d8ee9541bd04c57f79d425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fbc37f16052662b6de8833fdf7b964') in 0.006869 seconds
+  Import took 0.009932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile003.png
+  artifactKey: Guid(1d144c1a44ee143419f4450e9ca18f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile003.png using Guid(1d144c1a44ee143419f4450e9ca18f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48325199aafa9edf3047404c65b1b05') in 0.015188 seconds
+  Import took 0.018652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile002.png
+  artifactKey: Guid(774cdcb63306c754d97342af2505aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile002.png using Guid(774cdcb63306c754d97342af2505aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0e3859fd257d1457b6be96c554fa65') in 0.011379 seconds
+  Import took 0.015244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile000.png
+  artifactKey: Guid(aba0da133bd9279498982a2443f145d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile000.png using Guid(aba0da133bd9279498982a2443f145d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b46047cdf16449a0d8b936d9f40b48') in 0.023560 seconds
+  Import took 0.027271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003008 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile000.png
+  artifactKey: Guid(aba0da133bd9279498982a2443f145d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile000.png using Guid(aba0da133bd9279498982a2443f145d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b46047cdf16449a0d8b936d9f40b48') in 0.010068 seconds
+  Import took 0.013564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.169969 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile000.png
+  artifactKey: Guid(aba0da133bd9279498982a2443f145d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile000.png using Guid(aba0da133bd9279498982a2443f145d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414dc764a47c6dd5b36197d27137777b') in 0.008630 seconds
+  Import took 0.012596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile001.png
+  artifactKey: Guid(33ee12025d8ee9541bd04c57f79d425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile001.png using Guid(33ee12025d8ee9541bd04c57f79d425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e1448f7a23da1bdc76df8ddf235937') in 0.014440 seconds
+  Import took 0.018488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile003.png
+  artifactKey: Guid(1d144c1a44ee143419f4450e9ca18f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile003.png using Guid(1d144c1a44ee143419f4450e9ca18f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7db7e68ff385f2d883b3fef39f582f') in 0.017125 seconds
+  Import took 0.020325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile002.png
+  artifactKey: Guid(774cdcb63306c754d97342af2505aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile002.png using Guid(774cdcb63306c754d97342af2505aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2effc5ffbde1ccba1391979b29eca6') in 0.018181 seconds
+  Import took 0.021812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001772 seconds.
+  path: Assets/Sprites/bone-legacy-assets/spawner/tile002.png
+  artifactKey: Guid(774cdcb63306c754d97342af2505aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bone-legacy-assets/spawner/tile002.png using Guid(774cdcb63306c754d97342af2505aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2effc5ffbde1ccba1391979b29eca6') in 0.014786 seconds
+  Import took 0.018145 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001397 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Martin\Desktop\Personal Projects\Bone-Legacy\Bone-Legacy\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Registering precompiled user dll's ...
+Registered in 0.077342 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Martin\Desktop\Personal Projects\Bone-Legacy\Bone-Legacy\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.2 MB.
+System memory in use after: 54.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2239.
+Total: 2.270100 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.658400 ms  DeleteObjects: 0.113100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
